@@ -1,0 +1,34 @@
+{
+  "name": "lab-05-exploring-models",
+  "version": "1.0.0",
+  "description": "In this lab we build a CRUD app with mongoose.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose --detectOpenHandles",
+    "tw": "npm run test -- --watchAll --coverage",
+    "lint": "eslint '**/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sethripman/exploring-models.git"
+  },
+  "keywords": [],
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sethripman/exploring-models/issues"
+  },
+  "homepage": "https://github.com/sethripman/exploring-models#readme",
+  "devDependencies": {
+    "@jest/types": "^24.9.0",
+    "dotenv": "^8.2.0",
+    "eslint": "^6.7.2",
+    "express": "^4.17.1",
+    "jest": "^24.9.0",
+    "mongoose": "^5.7.13",
+    "supertest": "^4.0.2"
+  }
+}
